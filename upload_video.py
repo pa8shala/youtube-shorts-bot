@@ -37,6 +37,7 @@ def upload_video(video_file, title, description, tags):
     print("✅ Video uploaded successfully! Video ID:", response["id"])
 
 if __name__ == "_main_":
+    print"Script is running..."
     today = datetime.date.today().strftime('%Y%m%d')
     video_path = f"videos/final_short_{today}.mp4"
 
